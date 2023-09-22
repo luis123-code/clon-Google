@@ -1,0 +1,173 @@
+:root {
+    --s: 14px;
+    --m: 16px;
+    --l: 18px;
+    --xl: 20px;
+    --xxl: 24px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ededed;
+    font-family: 'Quicksand';
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url('https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/6/5/ctsejxmdtw9inp8zqqqd/valorant');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.google-header {
+    background-color: #20212470;
+    padding: var(--l)  var(--l) 10px var(--l);
+}
+
+.google-list-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.google-list-nav li {
+    padding-left: var(--l);
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.google-list-nav li i {
+    cursor: pointer;
+}
+
+.google-list-nav li button {
+    margin-top: -8px;
+    background: #3498DB;
+    border: 1px solid transparent;
+    color: #202124;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 23px;
+}
+
+main {
+    height: 560px;
+}
+
+.menu-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    border: 1px solid #fff;
+    border-radius: 37px;
+    width: 40%;
+    background: #202124ae;
+}
+
+.search input {
+    padding: 8px 0;
+    width: 93%;
+    background: transparent;
+    border: none;
+    border-radius: 16px
+}
+
+input:focus{
+    outline: 0;
+}
+
+.search button {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button i {
+    width: 20px;
+    margin-left: 8px;
+}
+
+.main-buttons {
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-buttons button {
+    margin-top: 4px;
+    background: #202124de;
+    border: 1px solid transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 18px;
+    width: 48%;
+}
+
+.menu-container p {
+    font-size: 1.5rem;
+    margin-top: 24px;
+}
+
+.menu-container p a {
+    color: #8ab4f8
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+p{
+    width: 100%;
+    padding: 5px 12px ;
+    font-size: 1.7rem;
+}
+
+
+.footer_content{
+    width: 100%;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__items__link{
+    padding: 5px 7px;
+}
+.footer__items{
+    display: inline-block;
+    padding: 0 5px;
+}
+.footer__link{
+    font-weight: 100;
+    font-size: 1.6rem;
+}
